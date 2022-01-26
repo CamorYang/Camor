@@ -29,7 +29,7 @@
 }
 
 .article-clean .intro p .date {
-  text-transform: initial;
+  text-transform: uppercase;
   padding: 4px 0 4px 10px;
   margin-left: 10px;
   border-left: 1px solid #ddd;
@@ -37,6 +37,7 @@
 
 .article-clean .intro p a {
   color: #333;
+  text-transform: initial;
   padding-left: 3px;
 }
 
@@ -67,7 +68,6 @@
 @media (min-width:768px) {
   .article-clean .text h2 {
     font-size: 20px;
-    transform-origin: initial;
   }
 }
 
@@ -75,10 +75,5 @@
   text-align: center;
   margin-top: 30px;
   margin-bottom: 20px;
-}
-
-.article-clean .text figure img {
-  margin-bottom: 12px;
-  max-width: 100%;
 }
 
