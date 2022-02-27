@@ -6,6 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>图片验证码</title>
+   
+</head>
+
+<body>
+    <canvas id="canvas" width="240" height="80"></canvas>
+    <input type="text" id="text">
+    <input type="button" value="提交" id="bt">
+    <audio controls autoplay>
+        <source id="tts_source" type="audio/mpeg" src="http://tts.baidu.com/text2audio/text2audio?lan=zh&amp;ie=UTF-8&amp;spd=8&amp;text=">
+    </audio>
     <script>
         var canvas = document.getElementById("canvas");//演员
         var context = canvas.getContext("2d");//舞台，getContext() 方法可返回一个对象，该对象提供了用于在画布上绘图的方法和属性。
@@ -83,16 +93,6 @@
 
     </script>
 
-</head>
-
-<body>
-    <canvas id="canvas" width="240" height="80"></canvas>
-    <input type="text" id="text">
-    <input type="button" value="提交" id="bt">
-    <audio controls autoplay>
-        <source id="tts_source" type="audio/mpeg" src="http://tts.baidu.com/text2audio/text2audio?lan=zh&amp;ie=UTF-8&amp;spd=8&amp;text=">
-    </audio>
-    
 </body>
 
 </html>
