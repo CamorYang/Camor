@@ -3,6 +3,8 @@ body {
  background-color: rgb(242, 255, 251);
 }
 
-h1 {
-    margin:50px;
+section {
+    margin: 10%;
+    width:80%;
+    height:500px;
 }
