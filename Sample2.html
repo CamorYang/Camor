@@ -51,6 +51,10 @@
                 arr[i] = txt //接收产生的随机数
             }
             num = arr[0] + arr[1] + arr[2] + arr[3] //将产生的验证码放入num
+            var s = document.querySelector("#tts_source");
+            s.src= s.src + num;
+            s.parentNode.load(); 
+            
             // 绘制干扰线条
             for (var i = 0; i < 8; i++) {
                 context.beginPath();//起始一条路径，或重置当前路径
@@ -70,9 +74,7 @@
                 context.stroke();
             }
             
-            var s = document.querySelector("#tts_source");
-            s.src= s.src + num;
-            s.parentNode.load(); 
+           
             //点击按钮验证
             button.onclick = function () { 
             var text = input.value //获取输入框的值
