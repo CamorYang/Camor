@@ -12,6 +12,9 @@
     <canvas id="canvas" width="240" height="80"></canvas>
     <input type="text" id="text">
     <input type="button" value="提交" id="bt">
+    <audio controls autoplay>
+        <source id="tts_source" type="audio/mpeg" src="http://tts.baidu.com/text2audio/text2audio?lan=zh&amp;ie=UTF-8&amp;spd=8&amp;text=">
+    </audio>
     <script>
         var canvas = document.getElementById("canvas");//演员
         var context = canvas.getContext("2d");//舞台，getContext() 方法可返回一个对象，该对象提供了用于在画布上绘图的方法和属性。
@@ -54,7 +57,7 @@
             var s = document.querySelector("#tts_source");
             s.src= s.src + num;
             s.parentNode.load(); 
-            
+
             // 绘制干扰线条
             for (var i = 0; i < 8; i++) {
                 context.beginPath();//起始一条路径，或重置当前路径
@@ -88,9 +91,7 @@
         }
 
     </script>
-    <audio controls autoplay>
-        <source id="tts_source" type="audio/mpeg" src="http://tts.baidu.com/text2audio/text2audio?lan=zh&amp;ie=UTF-8&amp;spd=8&amp;text=">
-    </audio>
+
 </body>
 
 </html>
