@@ -52,9 +52,6 @@
                 arr[i] = txt //接收产生的随机数
             }
             num = arr[0] + arr[1] + arr[2] + arr[3] //将产生的验证码放入num
-            //lector("#tts_source");
-            //s.src= s.src + num;
-            //s.parentNode.load(); 
 
             // 绘制干扰线条
             for (var i = 0; i < 8; i++) {
@@ -89,8 +86,14 @@
         }
 
     </script>
+    <script>
+        var content = "hello";
+        var s = document.querySelector("#tts_source");
+        s.src = s.src + content;
+        s.parentNode.load();
+    </script>
     <audio controls autoplay>
-        <source id="tts_source" type="audio/mpeg" src="http://tts.baidu.com/text2audio/text2audio?lan=zh&amp;ie=UTF-8&amp;spd=8&amp;text=">
+        <source id="tts_source" type="audio/mpeg" src="http://tts.baidu.com/text2audio/text2audio?lan=zh&ie=UTF-8&spd=8&text=">
     </audio>
     
 
