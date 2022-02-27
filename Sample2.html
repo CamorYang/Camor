@@ -70,15 +70,15 @@
                 context.stroke();
             }
             
-            var content = num;
-            var s = document.querySelector("#tts_source");
-            s.src= s.src + content;
-            s.parentNode.load();
+            //var content = num;
+            //var s = document.querySelector("#tts_source");
+            //s.src= s.src + content;
+            //s.parentNode.load();
             //点击按钮验证
             button.onclick = function () { 
             var text = input.value //获取输入框的值
             if (text === num) {
-                alert('验证通过')
+                alert('验证通过')   
             } else {
                 alert('验证失败')
             }
@@ -87,9 +87,9 @@
         }
 
     </script>
-    <audio controls autoplay>
+    <!-- <audio controls autoplay>
         <source id="tts_source" type="audio/mpeg" src="http://tts.baidu.com/text2audio/text2audio?lan=zh&amp;ie=UTF-8&amp;spd=8&amp;text=">
-    </audio>
+    </audio> -->
 </body>
 
 </html>
