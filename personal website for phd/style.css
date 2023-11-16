@@ -1,0 +1,136 @@
+
+
+body{
+    padding:40px 97px;
+    color:#3e3e3e;
+    display: grid;
+    grid-template-columns: 
+        12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 10%;
+    grid-template-rows: 
+        5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw
+        5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw
+        5vw 5vw 5vw 5vw q5vw 5vw 5vw 5vw 5vw 5vw
+        5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw
+        5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw
+;
+        /* 70px 70px 70px 70px 70px 70px 70px 70px 70px 70px 
+        70px 70px 70px 70px 70px 70px 70px 70px 70px 70px
+        70px 70px 70px 70px 70px 70px 70px 70px 70px 70px 
+        70px 70px 70px 70px 70px 70px 70px 70px 70px 70px
+        70px 70px 70px 70px 70px 70px 70px 70px 70px 70px ; */
+    /* border:#2AAE57 2px solid; */
+}
+
+
+.name{
+    margin-bottom:50px;
+    width:100%;
+}
+
+
+#JialuoYang{
+    font-family: Inter;
+    font-size: 3vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color:#2AAE57;
+}
+
+
+.floatingIndex{position:fixed;}
+.indexHome,.indexResume,.indexPhotograph,.indexWriting,.indexNews{
+    height:50px;
+}
+.portrait{grid-area: 3 / 1 / 6 / 3;}
+
+.introduction{grid-area:3 / 3 / 7 / 9;}
+
+.researchSection{grid-area: 7 / 3 / 8 / 5;}
+.researchPic1{grid-area: 8 / 3 / 10 / 5;}
+.researchTitle1{grid-area: 8 / 5 / 9 / 9;}
+.researchIntro1{grid-area:9 / 5 / 10 / 9;}
+
+.researchPic2{grid-area: 11 / 3 / 13 / 5;}
+.researchTitle2{grid-area: 11 / 5 / 12 / 9;}
+.researchIntro2{grid-area:12 / 5 / 13 / 9;}
+
+#role{
+    font-size:1.1vw;
+}
+p{
+    font-size:1vw;
+    color:#5e5e5e;
+}
+.researchTitle1, .researchTitle2{
+    font-weight: bold;
+    font-size:1vw;
+}
+.researchIntro1, .researchIntro2{
+    font-size:1vw;
+    color:#5e5e5e;
+}
+.projectSection{grid-area: 14 / 3 / 15 / 4;}
+#KayaGo{grid-area: 15 / 3 / 18 / 9;}
+#PaperCrafting{grid-area: 19 / 3 / 22 / 9;}
+#ColorForShih-Ching{grid-area: 23 / 3 / 26 / 9;}
+#Lemonbox{grid-area: 27 / 3 / 30 / 9;}
+#Grocipe{grid-area: 31 / 3 / 34 / 9;}
+#CityHealthBook{grid-area: 35 / 3 / 38 / 9;}
+#Surprite{grid-area: 39 / 3 / 42 / 9;}
+#Flowind{grid-area: 43 / 3 / 46 / 9;}
+
+#KayaGo img{width:100%;height:auto;}
+#PaperCrafting img{width:100%;height:auto;}
+#ColorForShih-Ching img{width:100%;height:auto;}
+#Lemonbox img{width:100%;height:auto;}
+#Grocipe img{width:100%;height:auto;}
+#CityHealthBook img{width:100%;height:auto;}
+#Surprite img{width:100%;height:auto;}
+#Flowind img{width:100%;height:auto;}
+#KayaGo img{width:100%;height:auto;}
+
+.sectionTitle{
+    padding-top:10px;
+    margin-left:30px;
+}
+.sectionIcon{
+    width: 40px;
+    height:40px;
+    float:left;
+}
+
+.researchPic{
+    width:320px;
+    height:180px;
+}
+.researchTitle{
+    font-weight: bold;
+    padding-bottom:10px;
+}
+.portrait{
+    width:180px;
+    height:180px;
+    padding-bottom:36px;
+}
+.socialMedia img{
+    width: 30px;
+    height:30px;
+    /* padding-top:10px; */
+    padding-right:10px;
+}
+
+.projectBlock{
+    width:60%;
+    height:auto;
+    padding-bottom:50px;
+}
+
+a{
+    color:black;
+    text-decoration: none;
+}
+
+a :hover{
+    color:#2AAE57;
+}

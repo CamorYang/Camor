@@ -1,0 +1,80 @@
+#portrait-section {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 130px;
+    left: 50px;
+    background-color: white;
+    padding-left:50px;
+  }
+  
+  #portrait img {
+    width: 150px;
+    height: 150px;
+    border-radius: 0%;
+    align-self: left;
+  }
+  
+  #info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    align-self: left;
+  }
+  
+  #info-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    align-self: left;
+  }
+  
+  #info a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    align-self: left;
+  }
+  
+  #social {
+    margin-top: 20px;
+    display: flex;
+    align-self: left;
+  }
+  
+  #social i {
+    font-size: 20px;
+    color: black;
+    align-self: left;
+    margin-right: 20px;
+  }
+  
+  #social a:hover {
+    color: blue;
+  }
+  
+
+  .rightSection {
+    font-family: "Open Sans", sans-serif;
+    line-height: 200%;
+    padding-left: 400px;
+    padding-right: 200px;
+    padding-top: 100px;
+  }
+  .rightSection .introduction {
+    font-size: 14px;
+    color:grey;
+  }
+  
+.publication-description{
+    font-size:12px;
+    color:grey;
+    padding-bottom: 30px;
+}
+
+body {
+  margin: 0;
+  background: #fff;
+  overflow: hidden;
+}
