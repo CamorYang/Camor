@@ -81,6 +81,11 @@ p{
 #Surprite{grid-area: 39 / 3 / 42 / 9;}
 #Flowind{grid-area: 43 / 3 / 46 / 9;}
 
+.researchPic1{
+    width:70%;
+    height:auto; 
+    padding-left:15%; 
+}
 #KayaGo img{width:100%;height:auto;}
 #PaperCrafting img{width:100%;height:auto;}
 #ColorForShih-Ching img{width:100%;height:auto;}
