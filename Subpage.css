@@ -1,0 +1,116 @@
+
+
+body{
+    padding:40px 97px;
+    color:#3e3e3e;
+    display: grid;
+    grid-template-columns: 
+        12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 10%;
+    grid-template-rows: 
+        5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw
+        5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw
+        5vw 5vw 5vw 5vw q5vw 5vw 5vw 5vw 5vw 5vw
+        5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw
+        5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw
+;
+        /* 70px 70px 70px 70px 70px 70px 70px 70px 70px 70px 
+        70px 70px 70px 70px 70px 70px 70px 70px 70px 70px
+        70px 70px 70px 70px 70px 70px 70px 70px 70px 70px 
+        70px 70px 70px 70px 70px 70px 70px 70px 70px 70px
+        70px 70px 70px 70px 70px 70px 70px 70px 70px 70px ; */
+    /* border:#2AAE57 2px solid; */
+    font-family:Verdana;
+}
+
+.name{
+    margin-bottom:50px;
+    width:100%;
+}
+
+#JialuoYang{
+    font-family: Inter;
+    font-size: 3vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color:#2AAE57;
+}
+
+
+.floatingIndex{position:fixed;}
+.indexHome,.indexResume,.indexPhotograph,.indexWriting,.indexNews{
+    height:50px;
+}
+.portrait{grid-area: 3 / 1 / 6 / 3;}
+
+.introduction{grid-area:3 / 3 / 7 / 9;}
+
+#role{
+    font-size:1.1vw;
+}
+p{
+    font-size:1vw;
+    color:#5e5e5e;
+}
+
+img{
+    width:auto;
+    height:150px;
+}
+
+.paper{
+    padding-left:300px;
+    width:700px;
+    font-size:1vw;
+}
+.author{
+    font-size:0.8vw;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.abstract{
+    font-size:1vw;
+}
+
+.author, .abstract, .related-work, .design, .result, .conclusion{
+    margin-top:20px;
+    margin-bottom:20px;}
+.projectSection{grid-area: 22 / 3 / 23 / 4;}
+
+
+.sectionTitle{
+    padding-top:10px;
+    margin-left:30px;
+}
+.sectionIcon{
+    width: 40px;
+    height:40px;
+    float:left;
+}
+
+.portrait{
+    width:180px;
+    height:180px;
+    padding-bottom:36px;
+}
+.socialMedia img{
+    width: 30px;
+    height:30px;
+    /* padding-top:10px; */
+    padding-right:10px;
+}
+
+.projectBlock{
+    width:60%;
+    height:auto;
+    padding-bottom:50px;
+}
+
+a{
+    color:black;
+    text-decoration: none;
+}
+
+a :hover{
+    color:#2AAE57;
+}
