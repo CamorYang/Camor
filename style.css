@@ -18,7 +18,6 @@ body{
         70px 70px 70px 70px 70px 70px 70px 70px 70px 70px 
         70px 70px 70px 70px 70px 70px 70px 70px 70px 70px
         70px 70px 70px 70px 70px 70px 70px 70px 70px 70px ; */
-    /* border:#2AAE57 2px solid; */
     font-family:Verdana;
 }
 
@@ -38,29 +37,29 @@ body{
 }
 
 .floatingIndex{position:fixed;}
-.indexHome,.indexResume,.indexPhotograph,.indexWriting,.indexNews{
+.rightPart{
+    margin-left:25vw;
+    width:55vw;
+}
+.rightPart div{
+    width:100%;
+}
+.indexSection{
     height:50px;
 }
-.portrait{grid-area: 3 / 1 / 6 / 3;}
 
-.introduction{grid-area:3 / 3 / 7 / 9;}
-
-.researchSection{grid-area: 7 / 3 / 8 / 5;}
-.researchPic4{grid-area: 8 / 3 / 10 / 5;}
-.researchTitle4{grid-area: 8 / 5 / 9 / 9;}
-.researchIntro4{grid-area:9 / 5 / 10 / 9;}
-
-.researchPic3{grid-area: 11 / 3 / 13 / 5;}
-.researchTitle3{grid-area: 11 / 5 / 12 / 9;}
-.researchIntro3{grid-area:12 / 5 / 13 / 9;}
-
-.researchPic2{grid-area: 14 / 3 / 16 / 5;}
-.researchTitle2{grid-area: 14 / 5 / 15 / 9;}
-.researchIntro2{grid-area:15 / 5 / 17 / 9;}
-
-.researchPic1{grid-area: 17 / 3 / 19 / 5;}
-.researchTitle1{grid-area: 17 / 5 / 18 / 9;}
-.researchIntro1{grid-area:18 / 5 / 20 / 9;}
+.researchSection{
+    margin-bottom:50px;
+}
+.projectSection{
+    margin-bottom:50px;
+    height:40px;
+}
+.introduction{
+    width:100%;
+    height:auto;
+    margin-bottom:50px;
+}
 
 #role{
     font-size:1.1vw;
@@ -69,29 +68,25 @@ p{
     font-size:1vw;
     color:#5e5e5e;
 }
-.researchTitle1, .researchTitle2, .researchTitle3, .researchTitle4{
-    font-weight: bold;
-    font-size:1vw;
-}
-.researchIntro1, .researchIntro2, .researchIntro3, .researchIntro4{
-    font-size:1vw;
+
+.researchIntro{
+    font-size:0.9vw;
     color:#5e5e5e;
 }
-.projectSection{grid-area: 22 / 3 / 23 / 4;}
-#KayaGo{grid-area: 23 / 3 / 26 / 9;}
-#PaperCrafting{grid-area: 27 / 3 / 30 / 9;}
-#ColorForShih-Ching{grid-area: 31 / 3 / 34 / 9;}
-#Lemonbox{grid-area: 35 / 3 / 38 / 9;}
-#Grocipe{grid-area: 39 / 3 / 42 / 9;}
-#CityHealthBook{grid-area: 43 / 3 / 46 / 9;}
-#Surprite{grid-area: 47 / 3 / 50 / 9;}
-#Flowind{grid-area: 51 / 3 / 54 / 9;}
 
-.researchPic2, .researchPic1, .researchPic3, .researchPic4{
-    width:70%;
+
+
+.oneResearch{
+    width:100%;
+    height:auto;
+    margin-bottom:50px;
+
+}
+.researchPic{
+    width:30%;
     height:auto; 
-    padding-left:15%; 
-    padding-bottom:10%;
+    margin-right:10px;
+    float:left;
 }
 #KayaGo img{width:100%;height:auto;}
 #PaperCrafting img{width:100%;height:auto;}
@@ -105,21 +100,19 @@ p{
 
 .sectionTitle{
     padding-top:10px;
-    margin-left:30px;
+    /* margin-left:30px; */
 }
 .sectionIcon{
     width: 40px;
     height:40px;
     float:left;
+    margin-right:20px;
 }
 
-.researchPic{
-    width:320px;
-    height:180px;
-}
-.researchTitle{
+
+.researchTitle div{
     font-weight: bold;
-    padding-bottom:10px;
+    margin-bottom:20px;
 }
 .portrait{
     width:180px;
