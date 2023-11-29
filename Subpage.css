@@ -36,6 +36,9 @@ body{
     color:#2AAE57;
 }
 
+.indexSection{
+    height:50px;
+}
 
 .floatingIndex{position:fixed;}
 .indexHome,.indexResume,.indexPhotograph,.indexWriting,.indexNews{
@@ -67,7 +70,7 @@ p{
 }
 
 
-.paper{
+.main{
     padding-left:300px;
     width:700px;
     font-size:1vw;
