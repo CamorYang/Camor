@@ -3,43 +3,100 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Personal Website for PhD</title>
-        <!-- //initialize the basic elements for a html file, and include index.js and style.css -->
-        <link rel="stylesheet" href = "/personal website for phd/style.css">
-        <script src="/personal website for phd/index.js"></script>
+        <title>Jialuo Yang</title>
+        <!-- //initialize the basic eleme   nts for a html file, and include index.js and style.css -->
+        <link rel="stylesheet" href = "Subpage.css">
+        <script src="index.js"></script>
         <!-- include index.js below -->
     </head>
     <body>
 
         <!-- initialize: 1. block for my name, block for my index floating on the left side, block for my detailed info for people to review -->
-        <div class = "name">
-            <div id= "JialuoYang">Jialuo Yang</div>
-            <div id="role">Anthropologist/ Designer/ Researcher</div>
-        </div>
+
+
+        <!-- make it float -->
         <div class = "floatingIndex">
-            <img class="portrait" src="/personal website for phd/data/img/portrait.png">
+            <div class = "name">
+                <div id= "JialuoYang">Jialuo Yang</div>
+                <div id="role">Anthropologist/ Designer/ Researcher</div>
+            </div>
+
+            <img class="portrait" src="data/img/portrait.png">
             <div class="index">
-                <div class="indexProject"> Project</div>
-                <div class="indexResearch"> Research</div>
-                <div class="indexPublication">Publication</div>
-                <div class="indexResume">Resume</div>
-                <div class="indexPhotography">Photography</div>
-                <div class="indexWriting">Writing</div>
-                <div class="indexNews">news</div>            
+                <a  href = "index.html">
+                    <div class="indexSection"> Home</div>
+                </a>
+                <a  href = "data/Jialuo Yang-Resume.pdf">
+                    <div class = "indexSection">Resume</div>
+                </a>
+                <a href = "photograph.html">
+                    <div class = "indexSection">Photograph</div>
+                </a>
+                <a href="aboutMe.html">
+                    <div class="indexSection">About Me</div>
+                </a>
+                <!-- <a href = "writing.html">
+                    <div class = "indexSection">Writing</div>
+                </a>
+                <a href = "news.html">
+                    <div class = "indexSection">News</div>
+                </a> -->
             </div>
             <div class="socialMedia">
                 <a href="https://twitter.com/Camoriny">
-                    <img src="/personal website for phd/data/icon/twitter-icon.png" alt="Twitter">
+                    <img src="data/icon/twitter-icon.png" alt="Twitter">
                 </a>
                 <a href="https://www.linkedin.com/in/jialuo-yang-3b93a41b0/" target="_blank">
-                    <img src="/personal website for phd/data/icon/linkedin-icon.png" alt="LinkedIn">
+                    <img src="data/icon/linkedin-icon.png" alt="LinkedIn">
                 </a>
                 <a href="https://www.instagram.com/camoryang/" target="_blank">
-                    <img src="/personal website for phd/data/icon/ig-icon.png" alt="Instagram">
+                    <img src="data/icon/ig-icon.png" alt="Instagram">
                 </a>
             </div>
+        </div>
+
+        <!-- right side -->
+        <div class="main">
+            <!-- <h1 class = "title"> Triangulate ‘Listening’ to Materials(Under Review)</h1> -->
+            
+            <!-- Abstract -->
+            <div class="abstract"> 
+                Paper crafting applies paper and handwriting as the medium to explore how a betrayal of material would alter sociomaterial intra-action. Inspired by correlation between paper texture and drawing difference, I make fiber papers of different roughness to refine the agency
+            </div>
+            <div class="author"> Jialuo Yang, supervised by Sheng Xiao</div>
+            <img class ="IconicPicture" src="data/img/ColorforShih-Ching/Covor.png">
+            <!-- give me a space line -->
+            <p></p>
+            <p></p>
+
+            <!-- Intro -->
+            <div>
+                Shih-Ching, as a historic poetry anthonology, features in intonation and ryhtms. However, people have difficulty with phonetic aesthetic through acoustic contexts. We proposed a data visualization to translate the phonetic flux into a color-based pixel art.
+            </div>
+            <p></p>
+            <img style="width:80%;height:auto; margin:30px 10%" src="data/img/ColorforShih-Ching/SematicTranslation.png">
+            <p></p>
+            <div>Pictograph make sense of the characters culturally in a graphical way. For example, "蒹葭" means reed in Engligh, the "艹", shaped like grass growing out of the soil, acts as root to indicate its environment </div>
+            <p></p>
+            <div>Pinyin is a pronounciation system in China, it features tones, initial consonant, and vowel to represent the speaking. </div>
+            <p></p>
+
+
+            <!-- development -->
+            <div>With this, it delivers semantic and context through the embodied speaking process.</div>
+            <div> To realize this, I applied the crowdsourcing in Baidu's platform for expected semantic analysis.</div>
+            <div> We apply the generative model through the Convolutional Neural Networks for expected color examples.</div>
+            <div> We then preprocess the data from Chinese character-based poem into phonetic representation, and then into color cases</div>
+            <img style="width:80%;height:auto; margin:30px 10%" src="data/img/ColorforShih-Ching/Crowdsourcing-cnn-mapping.png">
+            <p></p>
+
+            <!-- final outcome -->
+            <div> We applied the color onto the pixelFlow and generate further cases as follows.</div>
+            <p></p>
+            <img style="width:80%;height:auto; margin:30px 10%" src="data/img/ColorforShih-Ching/ColorSet.png">
         </div>
 
     </body>
     
 </html>
+
