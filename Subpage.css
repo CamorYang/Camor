@@ -60,7 +60,7 @@ p{
 
     width:100%;
     height:auto;
-
+    margin-bottom:30px;
 }
 .IconicPicture2{
     width:50%;
@@ -87,7 +87,13 @@ p{
     margin-bottom:20px;
 }
 .abstract{
-    font-size:1vw;
+    font-size:1.1vw;
+    line-height:150%;
+}
+.author{
+    font-size:1.1vw;
+    line-height:150%;
+
 }
 
 p{
@@ -136,3 +142,4 @@ a{
 a :hover{
     color:#2AAE57;
 }
+
