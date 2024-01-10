@@ -74,11 +74,13 @@ p{
     padding-bottom:20px;
 
 }
-
+.video{
+    width:100%;
+}
 
 .main{
-    padding-left:300px;
-    width:700px;
+    padding-left:25vw;
+    width:60vw;
     font-size:1vw;
 }
 .author{
