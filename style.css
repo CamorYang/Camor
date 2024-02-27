@@ -4,20 +4,7 @@ body{
     padding:40px 97px;
     color:#3e3e3e;
     display: grid;
-    grid-template-columns: 
-        12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 10%;
-    grid-template-rows: 
-        5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw
-        5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw
-        5vw 5vw 5vw 5vw q5vw 5vw 5vw 5vw 5vw 5vw
-        5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw
-        5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw
-;
-        /* 70px 70px 70px 70px 70px 70px 70px 70px 70px 70px 
-        70px 70px 70px 70px 70px 70px 70px 70px 70px 70px
-        70px 70px 70px 70px 70px 70px 70px 70px 70px 70px 
-        70px 70px 70px 70px 70px 70px 70px 70px 70px 70px
-        70px 70px 70px 70px 70px 70px 70px 70px 70px 70px ; */
+    width:innerWidth;
     font-family:Verdana;
 }
 
@@ -36,11 +23,25 @@ body{
     color:#2AAE57;
 }
 
-.floatingIndex{position:fixed;}
 .rightPart{
     margin-left:25vw;
-    width:55vw;
+    margin-right:1vw;
+    width:calc(100%-26vw);
 }
+
+@media screen and (max-width:1000px){
+    .floatingIndex{
+        opacity:0;
+        visibility: hidden;
+        height:0;
+    }
+
+    .rightPart{
+        margin-left:0;
+    }
+}
+.floatingIndex{position:fixed;}
+
 .rightPart div{
     width:100%;
 }
